@@ -103,7 +103,7 @@ public class Main extends javax.swing.JFrame {
 
         toolBarMain.setRollover(true);
 
-        tbtnRegisterCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bankapplication/resources/add-new-document.png"))); // NOI18N
+        tbtnRegisterCustomer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/add-new-document.png"))); // NOI18N
         tbtnRegisterCustomer.setToolTipText("Register new Customers");
         tbtnRegisterCustomer.setFocusable(false);
         tbtnRegisterCustomer.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -115,7 +115,7 @@ public class Main extends javax.swing.JFrame {
         });
         toolBarMain.add(tbtnRegisterCustomer);
 
-        tbtnMakeDeposit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bankapplication/resources/open-archive.png"))); // NOI18N
+        tbtnMakeDeposit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/open-archive.png"))); // NOI18N
         tbtnMakeDeposit.setToolTipText("Make your Deposit");
         tbtnMakeDeposit.setFocusable(false);
         tbtnMakeDeposit.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -127,7 +127,7 @@ public class Main extends javax.swing.JFrame {
         });
         toolBarMain.add(tbtnMakeDeposit);
 
-        tbtnMakeWithdrawal.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/bankapplication/resources/product-realise.png"))); // NOI18N
+        tbtnMakeWithdrawal.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/product-realise.png"))); // NOI18N
         tbtnMakeWithdrawal.setToolTipText("Make your Withdrawal");
         tbtnMakeWithdrawal.setFocusable(false);
         tbtnMakeWithdrawal.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
